@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'concurrently',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData concurrently@^3.5.1
+8 silly fetchNamedPackageData concurrently
+9 silly mapToRegistry name concurrently
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'concurrently',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'concurrently',
+12 silly mapToRegistry   name: 'concurrently',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/concurrently
+14 verbose request uri https://registry.npmjs.org/concurrently
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 6:17:49 AM
+17 verbose request id 34e06aa167840459
+18 verbose etag W/"2fa2ec52e121874a9e9fc5d66f46e8eb"
+19 verbose lastModified Sat, 26 May 2018 20:41:22 GMT
+20 http request GET https://registry.npmjs.org/concurrently
+21 verbose stack Error: kill ENOSYS
+21 verbose stack     at exports._errnoException (util.js:1020:11)
+21 verbose stack     at process.kill (internal/process.js:190:13)
+21 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+21 verbose stack     at emitNone (events.js:91:20)
+21 verbose stack     at process.emit (events.js:185:7)
+21 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+21 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+21 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+22 verbose cwd C:\Users\Mobeen Ikhtiar\Desktop\Fiverr Project\vondos(CMS+API+Db)\Api
+23 error Windows_NT 10.0.15063
+24 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "concurrently" "--save-dev"
+25 error node v6.11.3
+26 error npm  v3.10.10
+27 error code ENOSYS
+28 error errno ENOSYS
+29 error syscall kill
+30 error kill ENOSYS
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
