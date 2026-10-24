@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server",
     "client": "node ../vondos/app",
-    "dev": "node api.js && concurrently --kill-others \"npm run server\" \"npm run client\""
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\""
   },
   "author": "",
   "license": "MIT",
